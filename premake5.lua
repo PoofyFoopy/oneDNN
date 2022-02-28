@@ -10,6 +10,12 @@ project "oneDNN"
 		"include/**",
 		"src/**"
 	}
+
+	includedirs
+	{
+		"include"
+	}
+
 	filter "system:linux"
 		pic "On"
 
